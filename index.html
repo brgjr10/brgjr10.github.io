@@ -2061,8 +2061,9 @@
 
         function zoomOut() {
             targetScale = baseScale;
-            targetOffsetX = 0;
-            targetOffsetY = 0;
+            const c = computeClusterCenter();
+            targetOffsetX = c.offsetX;
+            targetOffsetY = c.offsetY;
         }
 
         function openDetailPanel(project) {
@@ -2491,6 +2492,18 @@
 
         window.addEventListener('resize', resize);
         resize();
+
+        function computeClusterCenter() {
+            const pad = 90;
+            let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+            projects.forEach(p => {
+                minX = Math.min(minX, p.x - pad);
+                maxX = Math.max(maxX, p.x + pad);
+                minY = Math.min(minY, p.y - pad);
+                maxY = Math.max(maxY, p.y + pad);
+            });
+            return { offsetX: -(minX + maxX) / 2, offsetY: -(minY + maxY) / 2 };
+        }
 
         function centerOnCluster(fit) {
             const pad = 90;
