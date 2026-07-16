@@ -2037,6 +2037,7 @@
             if (node) {
                 selectedNode = node;
                 openDetailPanel(node);
+                zoomToNode(node);
             }
         });
 
@@ -2050,6 +2051,19 @@
             targetOffsetX = (e.clientX - width / 2) / newScale - world.x;
             targetOffsetY = (e.clientY - height / 2) / newScale - world.y;
         }, { passive: false });
+
+        function zoomToNode(node) {
+            const panelShift = detailPanel.classList.contains('open') ? 230 : 0;
+            targetScale = 1.8;
+            targetOffsetX = panelShift / targetScale - node.x;
+            targetOffsetY = -node.y;
+        }
+
+        function zoomOut() {
+            targetScale = baseScale;
+            targetOffsetX = 0;
+            targetOffsetY = 0;
+        }
 
         function openDetailPanel(project) {
             panelContent.innerHTML = `
@@ -2125,6 +2139,7 @@
             if (detailPanel.classList.contains('open')) {
                 detailPanel.classList.remove('open');
                 selectedNode = null;
+                zoomOut();
             } else {
                 closeTechStackPanel();
                 detailPanel.classList.add('open');
