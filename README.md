@@ -1029,7 +1029,7 @@
                     'React frontend with hot reloading',
                     'Graceful signal handling and process management'
                 ],
-                screenshot: ['Images/dvai.png'],
+                screenshot: ['https://github.com/brgjr10/brgjr10.github.io/blob/main/dvai.png?raw=true'],
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['zimaos','modelrouter','memory-mcp','zima-mcp']
@@ -1055,7 +1055,7 @@
                     'Background sync loop with atomic config writes',
                     'Capacity metadata fetching per provider'
                 ],
-                screenshot: ['Images/modelrouter.png'],
+                screenshot: ['https://github.com/brgjr10/brgjr10.github.io/blob/main/modelrouter.png?raw=true'],
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['deadvisionai', 'zimaos']
@@ -1078,7 +1078,7 @@
                     'Context isolation and secure IPC communication',
                     'Minimal UI focused on usability'
                 ],
-                screenshot: ['Images/FactorApp.png'],
+                screenshot: ['https://github.com/brgjr10/brgjr10.github.io/blob/main/FactorApp.png?raw=true'],
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['gaming-pc']
@@ -1101,7 +1101,7 @@
                     'Portable Windows packaging via electron-builder',
                     'Build automation scripts'
                 ],
-                screenshot: ['Images/coilcalc.png'],
+                screenshot: ['https://github.com/brgjr10/brgjr10.github.io/blob/main/coilcalc.png?raw=true'],
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['gaming-pc']
@@ -1124,7 +1124,7 @@
                     'Privileged protocol registration with fetch API support',
                     'Min/max window size constraints'
                 ],
-                screenshot: 'Images/ODOT.png',
+                screenshot: 'https://github.com/brgjr10/brgjr10.github.io/blob/main/ODOT.png?raw=true',
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['zimaos']
@@ -1150,7 +1150,7 @@
                     'Audio proxy for CORS-bypassed playback',
                     'LocalStorage caching for offline resilience'
                 ],
-                screenshot: ['Images/radio.png', 'Images/radio2.png'],
+                screenshot: ['https://github.com/brgjr10/brgjr10.github.io/blob/main/radio.png?raw=true', 'https://github.com/brgjr10/brgjr10.github.io/blob/main/radio2.png?raw=true'],
                 screenshotTagType: 'device',
                 link: '',
                 connections: ['zimaos']
@@ -1173,7 +1173,7 @@
                     'Handles artist - track format parsing',
                     'Progress reporting for large uploads'
                 ],
-                screenshot: 'Images/spotify.jpg',
+                screenshot: 'https://github.com/brgjr10/brgjr10.github.io/blob/main/spotify.jpg?raw=true',
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['gaming-pc']
@@ -1197,7 +1197,7 @@
                     'Cyberpunk UI with neon aesthetics',
                     'React 19 + TypeScript with Vite bundling'
                 ],
-                screenshot: 'Images/satt.png',
+                screenshot: 'https://github.com/brgjr10/brgjr10.github.io/blob/main/satt.png?raw=true',
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['zimaos']
@@ -1221,7 +1221,7 @@
                     'AI-generated daily and weekly recommendations',
                     'Server mode with Express API proxy for CORS'
                 ],
-                screenshot: 'Images/WFProfile.png',
+                screenshot: 'https://github.com/brgjr10/brgjr10.github.io/blob/main/WFProfile.png?raw=true',
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['zimaos']
@@ -1245,7 +1245,7 @@
                     'Real-time refresh capability',
                     'Responsive table layout with Tailwind'
                 ],
-                screenshot: 'Images/WFTracker.png',
+                screenshot: 'https://github.com/brgjr10/brgjr10.github.io/blob/main/WFTracker.png?raw=true',
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['zimaos']
@@ -1295,7 +1295,7 @@
                     'Local reverse proxy for LAN services',
                     'Central home infrastructure hub'
                 ],
-                screenshot: ['Images/server1.png', 'Images/tma2.png', 'Images/server2.png', 'Images/server3.png', 'Images/server4.png'],
+                screenshot: ['https://github.com/brgjr10/brgjr10.github.io/blob/main/server1.png?raw=true', 'https://github.com/brgjr10/brgjr10.github.io/blob/main/tma2.png?raw=true', 'https://github.com/brgjr10/brgjr10.github.io/blob/main/server2.png?raw=true', 'https://github.com/brgjr10/brgjr10.github.io/blob/main/server3.png?raw=true', 'https://github.com/brgjr10/brgjr10.github.io/blob/main/server4.png?raw=true'],
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['zima-mcp','satellite','memory-mcp','odot','radioapp','wfprofile','wfproj']
@@ -1364,7 +1364,7 @@
                     'Zima Web Terminal Injector',
                     'Custom theme injection engine'
                 ],
-                screenshot: ['Images/tmb1.png', 'Images/tma1.png', 'Images/tmb2.png', 'Images/tma2.png'],
+                screenshot: ['https://github.com/brgjr10/brgjr10.github.io/blob/main/tmb1.png?raw=true', 'https://github.com/brgjr10/brgjr10.github.io/blob/main/tma1.png?raw=true', 'https://github.com/brgjr10/brgjr10.github.io/blob/main/tmb2.png?raw=true', 'https://github.com/brgjr10/brgjr10.github.io/blob/main/tma2.png?raw=true'],
                 screenshotTagType: 'state',
                 link: '',
                 connections: ['gaming-pc']
@@ -1387,7 +1387,7 @@
                     'MCP server executable packaging',
                     'License and third-party notices'
                 ],
-                screenshot: 'Images/memory.png',
+                screenshot: 'https://github.com/brgjr10/brgjr10.github.io/blob/main/memory.png?raw=true',
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['zimaos']
@@ -1411,7 +1411,7 @@
                     '32GB Corsair DDR4-3200 (2x16GB)',
                     'Hosts Coil Calculator, Factor Virtual Fridge, and Tampermonkey scripts'
                 ],
-                screenshot: 'Images/game.jpeg',
+                screenshot: 'https://github.com/brgjr10/brgjr10.github.io/blob/main/game.jpeg?raw=true',
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['coilcalc', 'factorapp', 'tampermonkey']
@@ -1671,7 +1671,7 @@
                     '3-step guided setup: install Tampermonkey → install bridge → start server',
                     'Works on any PC with browser access to the operations floor network'
                 ],
-                screenshot: 'Images/icw.png',
+                screenshot: 'https://github.com/brgjr10/brgjr10.github.io/blob/main/icw.png?raw=true',
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['work-laptop']
@@ -2137,7 +2137,7 @@
         function openAboutPanel() {
             panelContent.innerHTML = `
                 <div class="about-photo">
-                    <img src="Images/me.jpeg" alt="Brodie Grant" class="about-photo-img">
+                    <img src="https://github.com/brgjr10/brgjr10.github.io/blob/main/me.jpeg?raw=true" alt="Brodie Grant" class="about-photo-img">
                 </div>
                 <h2 class="detail-title">Brodie Grant</h2>
                 <p class="detail-subtitle">Full-Stack Developer & Operations Automation Engineer</p>
