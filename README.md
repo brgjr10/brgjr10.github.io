@@ -950,7 +950,7 @@
 
     <div class="header">
         <div class="logo">
-            <div class="logo-icon"><img src="Images/me.jpeg" alt="Brodie Grant"></div>
+            <div class="logo-icon"><img src="https://github.com/brgjr10/brgjr10.github.io/blob/main/me.jpeg?raw=true" alt="Brodie Grant"></div>
             <div class="logo-text">
                 <h1 id="portfolioDropdown">Brodie Grant's Portfolio ▸</h1>
                 <p>Interactive Project Map</p>
@@ -1269,7 +1269,7 @@
                     'Session lifecycle management',
                     'TypeScript with full type safety'
                 ],
-                screenshot: 'Images/zima.png',
+                screenshot: 'https://github.com/brgjr10/brgjr10.github.io/blob/main/zima.png?raw=true',
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['zimaos']
@@ -1319,7 +1319,7 @@
                     'Stream content organization',
                     'Watchlist management interface'
                 ],
-                screenshot: 'Images/wl.png',
+                screenshot: 'https://github.com/brgjr10/brgjr10.github.io/blob/main/wl.png?raw=true',
                 screenshotTagType: 'none',
                 link: 'https://watch-later-sigma.vercel.app/',
                 connections: ['vercel']
@@ -1341,7 +1341,7 @@
                     'Builds from the GitHub repository',
                     'Global edge CDN delivery'
                 ],
-                screenshot: 'Images/vercel.png',
+                screenshot: 'https://github.com/brgjr10/brgjr10.github.io/blob/main/vercel.png?raw=true',
                 screenshotTagType: 'none',
                 link: '',
                 connections: ['watchlater']
