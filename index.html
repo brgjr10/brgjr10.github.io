@@ -1528,26 +1528,26 @@
                 link: '',
                 connections: ['raspberrypi']
             },
-            {
-                id: 'internet',
-                name: 'Internet',
-                subtitle: 'Global Network',
-                x: -100, y: -700,
-                color: '#22d3ee',
-                category: 'Cloud Host',
-                icon: '🌐',
-                description: 'The public internet — a generic external hub you can wire other nodes to in order to show outbound connectivity, remote access, or cloud reachability.',
-                tech: ['DNS', 'HTTPS', 'CDN'],
-                stats: { role: 'External', scope: 'Global', type: 'Network' },
-                features: [
-                    'Generic external connection point',
-                    'Use it to represent outbound/ingress traffic',
-                    'Connect cloud and self-hosted services to show reachability'
-                ],
-                screenshotTagType: 'none',
-                link: '',
-                connections: ['vercel','raspberrypi','work-laptop']
-            },
+{
+    id: 'internet',
+    name: 'Internet',
+    subtitle: 'Global Network',
+    x: -100, y: -700,
+    color: '#22d3ee',
+    category: 'Network',
+    icon: '🌐',
+    description: 'The Internet is the worldwide system of interconnected computer networks that enables communication, data exchange, and access to online services across the globe.',
+    tech: ['TCP/IP', 'DNS', 'HTTPS'],
+    stats: { role: 'Public Network', scope: 'Global', type: 'Infrastructure' },
+    features: [
+        'Connects billions of devices worldwide',
+        'Enables communication between networks and services',
+        'Provides access to websites, applications, and cloud platforms'
+    ],
+    screenshotTagType: 'none',
+    link: '',
+    connections: ['vercel','raspberrypi','work-laptop']
+},
             {
                 id: 'work-laptop',
                 name: 'Work Laptop',
